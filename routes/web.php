@@ -14,11 +14,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
 });
-Route::get('/nama', function () {
-    return ('Fila Akbar');
-});
-Route::get('/nim', function () {
-    return ('21.31.0003');
-});
+// Route::get('/nama', function () {
+//     return ('Fila Akbar');
+// });
+// Route::get('/nim', function () {
+//     return ('21.31.0003');
+// });
